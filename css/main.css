@@ -1,11 +1,11 @@
 body {
+    background-color: black;
     margin: 60px auto;
-    width: 80%;
+    width: 70%;
 }
 
 nav ul,
 footer ul {
-    color: rgb(13, 248, 36);
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -52,13 +52,13 @@ h4 {
 p {
     font-size: 1.75em;
     line-height: 1.4em;
-    color: #333;
+    color: rgba(4, 255, 0, 0.81);
 }
 
 p1 {
     font-size: 1.1em;
     line-height: 1.0em;
-    color: #333;
+    color: rgba(4, 255, 0, 0.81);
 }
 
 footer {
