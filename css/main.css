@@ -139,8 +139,8 @@ a:active {
 }
 
 .service .service-icon i {
-    position: relative;
-    font-size: 60px;
+    position: center;
+    font-size: 100px;
     color: rgba(4, 255, 0, 0.81);
     transition: .3s;
 }
