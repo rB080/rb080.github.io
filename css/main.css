@@ -5,6 +5,7 @@ body {
 
 nav ul,
 footer ul {
+    color: rgb(13, 248, 36);
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
