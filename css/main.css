@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-    text-decoration: italic;
+    font-style: italic;
 }
 
 .media {
@@ -77,7 +77,7 @@ ul.posts li {
 
 /* unvisited link */
 a:link {
-    color: rgba(255, 2, 2, 0.414);
+    color: rgba(57, 2, 255, 0.521);
 }
 
 /* visited link */
