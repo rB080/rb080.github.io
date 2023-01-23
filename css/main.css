@@ -17,16 +17,19 @@ footer ul li {
     font-family: "Lucida Console", "Courier New", monospace;
     display: inline;
     margin-right: 30px;
+    color: rgba(4, 255, 0, 0.81);
 }
 
 li {
     font-family: "Lucida Console", "Courier New", monospace;
-    margin-top: 200px;
+    margin-top: 25px;
+    color: rgba(4, 255, 0, 0.81);
 }
 
 li:first-child {
     font-family: "Lucida Console", "Courier New", monospace;
     margin-top: 0;
+    color: rgba(4, 255, 0, 0.81);
 }
 
 a {
@@ -105,6 +108,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     background-color: rgba(4, 255, 0, 0.81);
     color: black;
     font-style: italic;
@@ -112,7 +117,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: rgb(255, 0, 0);
+    text-decoration: underline;
 }
 
 /* icon link  */
@@ -142,9 +147,14 @@ ai:hover {
 
 /* selected link */
 ai:active {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 4, 255);
 }
 
+/* Hover action */
+hglt:hover {
+    background-color: rgba(4, 255, 0, 0.81);
+    color: black;
+}
 
 /*******************************/
 /********* Service CSS *********/
