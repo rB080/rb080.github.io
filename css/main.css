@@ -13,6 +13,33 @@ canvas {
 
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    border: 1px solid rgba(4, 255, 0, 0.81);
+}
+
+::-webkit-scrollbar-button {
+    background: transparent;
+    border: 5px solid rgba(4, 255, 0, 0.81);
+
+}
+
+::-webkit-scrollbar-button:active {
+    background: rgba(4, 255, 0, 0.81);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(4, 255, 0, 0.81);
+
+}
+
+
 nav ul,
 footer ul {
     font-family: "Lucida Console", "Courier New", monospace;
